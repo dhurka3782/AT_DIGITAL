@@ -1,0 +1,479 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
+h1 , h3 {
+  margin: 0; /* Prevent large margins if any */
+  padding: 0; /* Reset padding */
+  overflow: visible; /* Make sure overflow is visible */
+  position: relative; /* Ensure it's in normal document flow */
+}
+
+ /* Top Navigation */
+ #top-nav {
+  width:  (1,440px)px;
+  height: Hug (77px)px;
+  padding: 26px 80px 26px 80px;
+  gap: 0px;
+  opacity: 0px;
+  background: #6B3CC9;
+}
+
+/* Logo */
+.logo img {
+  width: 238.89px;
+  height: 25px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/* Navigation Links */
+.navbar-nav .nav-link {
+  width: Hug (381px)px;
+  height: Hug (17px)px;
+  gap: 28px;
+  opacity: 0px;
+  color: #FFFFFF
+
+}
+
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  height: 700px;
+  top: 77px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/* Hero Image */
+.hero-image {
+  width: 1440px;
+  height: 700px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+/* Overlay Background */
+.hero-overlay {
+  width: Fixed (630px)px;
+  height: Hug (306px)px;
+  top: 354px;
+  left: 80px;
+  padding: 24px 40px 32px 40px;
+  gap: 20px;
+  opacity: 0px;
+}
+
+/* Content Frame */
+.hero-content {
+  padding: 24px 40px 32px;
+  background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%);
+  position: absolute;
+  top: 77%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: white;
+  max-width: 500px;
+}
+
+/* Title Styles */
+.hero-title {
+  font-family: 'Inter', sans-serif; /* Font family */
+  font-weight: 700; /* Bold font */
+  font-size: 48px; /* Font size */
+  line-height: 1; /* Line height */
+  letter-spacing: -0.02em; /* Letter spacing */
+  text-transform: capitalize; /* Capitalize the text */
+  color: #FFFFFF; /* White text color */
+  margin-bottom: 20px; /* Space below title */
+}
+
+/* Button Styles */
+.hero-button {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background: #F28D35; /* Button background color */
+  border-radius: 4px; /* Rounded corners */
+  color: #FFFFFF; /* Button text color */
+  border: none; /* No border */
+  font-family: 'Inter', sans-serif; /* Font family for button */
+  font-weight: 700; /* Bold font */
+  font-size: 14px; /* Font size */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: -0.02em; /* Letter spacing */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+ /* Services Section */
+ .services {
+  margin: 5rem auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.service-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 108px;
+}
+
+.image-container {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.image-container img {
+  width: 414px;
+  height: 414px;
+  border-radius: 8px; /* Optional: rounded corners */
+  object-fit: cover; /* Ensure the image fits well */
+}
+
+.service-content {
+  width: Hug (1,064px)px;
+  height: Hug (414px)px;
+  top: 857px;
+  left: 188px;
+  gap: 108px;
+  opacity: 0px;  
+}
+
+.service-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+  color: #6B3CC9;
+}
+
+.service-description {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 8px;
+  background: #F28D35;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none; /* Remove underline */
+  transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+  background: #D97D2C; /* Darker shade for hover effect */
+}
+
+/* General FAQ Section Layout */
+/* General FAQ Section Layout */
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.faq-container {
+  width: 846px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+}
+
+/* FAQ Title Styling */
+.faq-container h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+  color: #6B3CC9;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Individual FAQ Item Styling */
+.faq-item {
+  width: 100%;
+  padding: 24px;
+  gap: 13px;
+  border-radius: 7px;
+  background: #FAF8FF;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* FAQ Question */
+.faq-question, .faq-question-02 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* FAQ Toggle Icon */
+.faq-toggle {
+  font-size: 22px;
+  color: #6B3CC9;
+  transition: transform 0.3s ease;
+}
+
+/* Active State for Question Text and Icon */
+.faq-item.open .faq-question, .faq-item.open .faq-question-02 {
+  color: #6B3CC9;
+}
+
+.faq-item.open .faq-toggle {
+  content: '-';
+  transform: rotate(180deg); /* Optional styling for toggle rotation */
+}
+
+/* FAQ Answer */
+.faq-answer {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6F6C90;
+  display: none; /* Hidden by default */
+}
+
+.faq-item.open .faq-answer {
+  display: block;
+}
+
+
+/* Footer Section */
+.footer {
+  background-color: #6B3CC9 !important; /* Primary color */
+  color: #FFFFFF; /* Text color */
+  padding: 2rem 0; /* Padding for top and bottom */
+}
+
+.footer .logo {
+  max-width: 100%; /* Make logo responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.footer h4 {
+  font-family: Inter;
+ font-weight: 600;
+ line-height: 25.41px;
+ text-align: left;
+ font-family: Inter;
+ font-size: 21px;
+ font-weight: 600;
+ line-height: 25.41px;
+ text-align: left;
+ color: #FFFFFF;
+}
+
+.footer p {
+  width: Hug (257px)px;
+  height: Hug (17px)px;
+  gap: 16px;
+  opacity: 0px;
+
+}
+
+.footer .list-unstyled li {
+  margin-bottom: 10px; /* Space between list items */
+}
+
+.footer a {
+  color: #FFFFFF; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer hr {
+  border: 1px solid #FFFFFF; /* White horizontal line */
+}
+/* Default styles for large screens */
+
+.hero-section {
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer {
+  text-align: left;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+.service-Learn-more{
+  display: flex;width: 100%;justify-content: flex-start;
+}
+
+.nav-item{
+  margin-bottom: 2rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link{
+  color:white !important;
+}
+
+.navbar-nav {
+  color: #FFFFFF !important;
+  margin-left: auto;
+}
+
+.navbar-toggler {
+  border: none; /* Optional: remove the border */
+  padding: 8px; /* Adjust padding to fit the design */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important; /* Force white lines */
+  width: 50px; /* Adjust width */
+  height: 50px; /* Adjust height */
+}
+#navbarNav {
+  display: none; /* Initially hidden */
+}
+#navbarNav.show {
+  display: block; /* Show when toggled */
+}
+.toggle-icon{
+  font-size: 2rem;
+  margin-top: -1.2rem;
+}
+/* Ensure full width for logo-section at 768px and below */
+
+.iimage-container-new {
+  position: relative;
+  width: 100%;
+}
+
+.image-container-new img {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+
+
+@media (max-width: 1200px) {
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .hero-content {
+    position: static; /* Removes absolute positioning */
+    transform: none; /* Resets the transform */
+    width: 100%; /* Take full width */
+    max-width: none; /* Remove max-width limit */
+    text-align: center; /* Optional: Centers the text inside the content */
+  }
+
+  .hero-button {
+    width: 100%; /* Make the button full width as well */
+  }
+}
+
+
+
+@media (max-width: 375px) {
+  .logo-section {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Stack the other two sections below the logo section */
+  .technologies-section, .services-section {
+    flex: 0 0 100%; /* Each section takes full width */
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .logo-section {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Stack the other two sections below the logo section */
+  .technologies-section, .services-section {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* Optional: if you want these to stack one below the other in separate rows */
+  /* .technologies-section, .services-section {
+    flex: 0 0 100%;
+    max-width: 100%;
+  } */
+  .navbar-nav{
+     display: none;
+  }
+  .service-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.service-Learn-more{
+  display: flex;
+  justify-content: center;
+}
+.image01{
+  margin: auto;
+}
+
+
+.image-container {
+  order: 1; /* Move image first */
+}
+
+.service-content {
+  order: 2; /* Move content second */
+}
+  }
